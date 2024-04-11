@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Enlace de bootstrap--->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Enlace de CSS -->
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <title>Balon de oro</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">Balon de oro</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=".#carouselExampleIndicators">Top 5 ganadores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/nominados.html"
+                >Nominados de este año</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="paginas/carrito.html"
+                >Carrito de compras</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <img id="balon" src="img/portada_balon_de_oro.webp" alt="Balon De Oro" />
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="paginas/jugadores/modric2018.html">
+            <img
+              class="d-block"
+              src="img/modric2018.webp"
+              alt="Modric"
+              style="width: 1230px; height: 640px"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block" id="modric">
+            <h5>Modric</h5>
+            <p>Ganador 2018</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="paginas/jugadores/messi2019.html">
+            <img
+              class="d-block"
+              src="img/messi2019.webp"
+              alt="Messi"
+              style="width: 1230px; height: 640px"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block" id="messi">
+            <h5>Messi</h5>
+            <p>Ganador 2019</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="paginas/jugadores/messi2021.html">
+            <img
+              class="d-block"
+              src="img/messi2021.webp"
+              alt="Messi"
+              style="width: 1230px; height: 640px"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block" id="Messi">
+            <h5>Messi</h5>
+            <p>Ganador 2021</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="paginas/jugadores/benzema2022.html">
+            <img
+              class="d-block"
+              src="img/benzema2022.webp"
+              alt="Benzema"
+              style="width: 1230px; height: 640px"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block" id="benzema">
+            <h5>Benzema</h5>
+            <p>Ganador 2022</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <a href="paginas/jugadores/messi2023.html">
+            <img
+              class="d-block"
+              src="img/messi2023.webp"
+              alt="Messi"
+              style="width: 1230px; height: 640px"
+            />
+          </a>
+          <div class="carousel-caption d-none d-md-block" id="Messi2023">
+            <h5>Messi</h5>
+            <p>Ganador 2023</p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carro de compras</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+<body>
+    <div class="product">
+        <h2>Polera</h2>
+        <img src="../img/VENTA_camisasdeoro.webp" alt="Polera" width="150px" height="150px">
+        <p>Precio: <span data-precio="10">$10</span></p>
+        <button class="agregar-al-carrito">Añadir al carro</button>
+    </div>
+    
+    <div class="product">
+        <h2>Taza</h2>
+        <img src="../img/VENTA_tazasdeoro.webp" alt="Taza" width="150px" height="150px">
+        <p>Precio: <span data-precio="8">$8</span></p>
+        <button class="agregar-al-carrito">añadir al carro</button>
+    </div>
+    
+    <div class="product">
+        <h2>Figura de balon</h2>
+        <img src="../img/VENTA_balondeoro.webp" alt="Balon de oro" width="150px" height="150px">
+        <p>Precio: <span data-precio="15">$15</span></p>
+        <button class="agregar-al-carrito">Añadir al carro</button>
+    </div>
+    
+    <div id="carrito">
+        <h2>Carro de compras</h2>
+        <ul id="articulos-en-carrito"></ul>
+        <p>Subtotal: $<span id="subtotal">0</span></p>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>
